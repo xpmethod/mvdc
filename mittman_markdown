@@ -1,0 +1,52 @@
+#MARKDOWN TUTORIAL
+
+What is this Markdown? Markdown is an easy way to write plaintext files which can be converted into other formats. Most often, Markdown is converted to HTML to script web pages, but it's also used to convert files into other formats such as PDF, RTF, etc... 
+
+##Benefits 
+
+The problem with other proprietary formats is that they change and may not be natively supported by different computers. The beauty of Markdown is that it stays the same; it uses a universal language that is human-readable. Even when it’s not typeset, plaintext looks good. You are not identifying stylistic elements; rather you’re identifying *semantic* elements. 
+
+##Universality
+
+Plaintext files are universal—they work everywhere and on every machine. Besides some differences in the way file-endings are encoded, you can open a plaintext file without issue on Mac, Windows, and Linux operating systems.
+
+##Rudimentary, Fast, Neat
+
+Since Markdown uses fairly rudimentary formatting principles, reading raw Markdown should make sense to any layman at first blush. Markdown is fast: the stripped down formatting saves a significant amount of time over labored HTML tags, and is much faster than using a word processor. It accelerates the workflows of writers. It’s also neat: Markdown translates quickly to HTML. No missing tags, no improperly nested tags, and no blocks left without containers. There’s no styling inline, nothing that will otherwise mess with a site’s design.  
+
+##Portable
+
+And it’s portable: your documents are cross-platform by their very nature. You can edit them in any text-capable application on any operating system. Transporting files requires no zipping or archiving, and the file size is as small as it can possibly get. Lastly, it’s versatile: your documents can be converted into wide array of formats. Convert to HTML for posting on the web, rich text for sending emails or importing into a layout program for final arrangement or any number of other proprietary formats. 
+
+##Quick Tips/Steps
+
+Some tips for beginners:
+
+Use # to start a line. You can also put # at the end of the line also, but it isn’t necessary. 
+
+
+Primary emphasis (*italics*) gets rendered as italics. Secondary emphasis (**bold**) gets rendered as bold. And triple emphasis (***bold and italic***) gets rendered as both simultaneously. 
+
+For links, the words you want to show go in [ ] and the URL goes in ( )
+So [this is a link to Google](http://google.com)
+And if you just want to include a URL and have it "clickable" just put angle brackets around it <http://google.com>.
+Use blank lines for paragraphs breaks <p>.
+Use 3 spaces at the end of a line to force a linebreak <br> without a blank line.
+
+Start a line with an (*) for an unordered/bulleted list (UL)
+
+Start a line with right angle bracket (>) to blockquote. 
+
+Increase the number of > to increase blockquote levels.
+
+Start a line with a TAB to make a code block. Wrap text in backticks (`) to make it inline code.
+
+Start a line with a hash mark (#) to make a heading (i.e. # This is a Header).
+
+Start a line with a double-hash (##) to make an H2 (i.e. ## This is a subheading)
+
+To create a list, use “—list…” Convention for a quote: “>quote…”; for footnote, “[1]footnote.”; for link, “a [link] (www.google.com); for code block, “`tick`”
+
+
+*IMPORTANT: Note that empty space matters. If you want to force carriage return, you need to put two spaces (to jump to a new line).*
+
