@@ -86,3 +86,6 @@ cd keymat
 `gpg -a --export-secret-keys EC46F7B6 | gpg -aco privatekey.pgp.asc` You should now see a file called `privatekey.pgp.asc` in your keymat.
 7. Print, back up or otherwise store these files and make sure to securely delete the directory "keymat"!
 
+
+This tutorial is adapted from Robert Sosinski's [tutorial](http://www.reactive.io/tips/2008/02/18/working-with-pgp-and-mac-os-x/) with notes drawn from Jerzy J. Gangi's [tutorial](http://notes.jerzygangi.com/the-best-pgp-tutorial-for-mac-os-x-ever/) as well.
+
