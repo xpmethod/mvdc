@@ -3,13 +3,19 @@
 Hidden files are called "dot"  .  files
 These start with .  
 
-for example: open .bash_history 
+for example: “.bash_history” is the syntax for a dot file name. 
 
-navigate to the directory you want using cd
+### To Open A Hidden (Dot) File
 
-To see a list of the hidden files go to command line and type 
+Navigate to the directory you want using `cd`
+
+To see a list of the hidden files go to command line and type: 
 `ls -aa`
+
+Then type:
 
 `open .[file name]` 
 
-The file will open in a text editor
+The file will open in a text editor.  
+
+Now you know what a hidden file is and how to find them in your directories.  : )
