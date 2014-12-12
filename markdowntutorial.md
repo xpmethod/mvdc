@@ -46,3 +46,4 @@ The [quick brown fox] [BOLD THIS] [decides to change the age-old coding practice
 
 Hope that the tutorial was helpful and stay **bold**!
 
+*This tutorial was inspired in part by Adam P's Markdown Cheatsheet on Github: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
