@@ -11,7 +11,7 @@
 ####How do I Use Markdown?
 - When you open the program, most will be separated into two panes. The one on the left is where you do all of your typing, and then one on the right is a preview of how your text will look in markdown.
 - If you format your writing nicely in Markdown, it comes out looking professional and organized. All you need to do is learn all of the commands for how to format. 
-- We will start with creating a heading. To create heading, place a # infront of the word. To create a smaller heading, place two # infront of the word. To create an even smaller one, place 3 # infront of the word, and so on and so forth. For example, a large heading and smaller headings would look like as follows: `#Heading#` `##Subheading##` `###Sub-subheading###`
+- We will start with creating a heading. To create heading, surround the word with two #. To create a smaller heading, place two # around the word. To create an even smaller one, place 3 # around the word, and so on and so forth. For example, a large heading and smaller headings would look like as follows: `#Heading#` `##Subheading##` `###Sub-subheading###`
 - To bold a word , surround the word with two asterisks. For example, text that looks like the following will bold a word. `**bold**` 
 - Italicizing a word is similar to bolding a word, but instead of two asterisks it is one. For example, text that looks like the following will italicize a word. `*italicize*`
 - To create a list, place a - with a space directly after it. After that, just continue to press enter when you want a new line for a new bullet point. It should looke like the following. `- this creates a list` 
