@@ -15,4 +15,4 @@ Often when we save files we don't put much thought into where we store them on o
 - Finally, you will use the command line included at the top of the tutorial: `mv -i yourfilename.txt destination-directory `.
 	- In this example, the command would be `mv -i download1.txt /My\ Documents `. `download1.txt`, in this case, is the file I want to move into my document folder. 
 	- `mv` means move.
-	- `-i` makes the maneuver interactive and asks for permission to replace a the same file if it already exists in the destination directory/folder. 
+	- `-i` makes the maneuver interactive and asks for permission to replace the same file if it already exists in the destination directory/folder. 
