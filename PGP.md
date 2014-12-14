@@ -51,6 +51,7 @@ Please keep in mind: this is a tutorial for Windows users. Sierra Eckert, anothe
 
 [At this point in the video, the screen shows a note that Snowden wrote in TextEdit. The note reads as follows:
 
-	"DO NOT COMPOSE YOUR EMAILS IN AN INTERNET BROWSER. Webmail clients like Gmail will 'autosave' a draft copy of your sensitive email BEFORE YOU HAVE HAD A CHANCE TO ENCRYPT IT. Only put the completed CYPHERTEXT (that is, the encrypted block of gibberish) into webmail. That way, the email provider cannot access the plaintext of your message." 
+	"DO NOT COMPOSE YOUR EMAILS IN AN INTERNET BROWSER. Webmail clients like Gmail will 'autosave' a draft copy 
+	of your sensitive email BEFORE YOU HAVE HAD A CHANCE TO ENCRYPT IT. Only put the completed CYPHERTEXT (that is, the encrypted block of gibberish) into webmail. That way, the email provider cannot access the plaintext of your message." 
 
 
