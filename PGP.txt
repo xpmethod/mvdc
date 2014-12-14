@@ -1,0 +1,9 @@
+/****************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This a tutorial adapted from Edward
+Snowden's video to Glenn Greenwald about 
+how to create and use a PGP key.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+****************************************/
+
+
