@@ -17,6 +17,27 @@ Please keep in mind: this is a tutorial for Windows users. Sierra Eckert, anothe
 
 "The solution to that is to actually encrypt the message. One of the problems with encryption typically is that it requires a shared secret - a key or password that goes between the journalist or the source but if the source sends an encrypted file across the internet to his journalist, that says "hey here's the encrypted file, the password is cheescake," the internet's going to know the password was cheesecake. 
 
-"Public key encryption such as gpg allows the journalist to publish a key that anyone can have based on the design of the algorithm and it doesn't provide any advantage to the adversary because the knowledge of that will allow him to encrypt a message specifically to the journalist. He can send his message... across the internet along with a copy of his public key so the journalist can respond. This has never been broken... over the past 20 years it's had an unbroken record of security success. That's a solid measure of security and it's reasonable to rely on that.
+"Public key encryption such as gpg allows the journalist to publish a key that anyone can have based on the design of the algorithm and it doesn't provide any advantage to the adversary because the knowledge of that will allow him to encrypt a message specifically to the journalist. He can send his message... across the internet along with a copy of his public key so the journalist can respond. This has never been broken... over the past 20 years it's had an unbroken record of security success. That's a solid measure of security and it's reasonable to rely on that."
 
-###
+###Step 1
+"The first thing that we're going to do is go to GPG4win.org. Download the latest version by clicking the download button." 
+
+###Step 2
+[When clicking through the installer, you will come to a screen that tells you to 'check the components you want to install and uncheck the components you don't want to install. Make sure you have checked BOTH GPA AND CLEOPATRA]
+
+###Step 3
+"When installation is complete, you will have two choices, cleopatra and GPA. Use GPA. It's better in almost every way -- its older." 
+
+###Step 4
+[When you launch the GPA application] "a window that says "key manager" will come up. This is your interface. The first thing you want to do as a new user is go to preferences and click the advanced mode. If you don't click this -- and it's not enabled by default -- you won't be able to choose your key length. You wantit stronger than the default length." 
+
+###Step 5
+"Then go to keys, generate new key, chose 3072 instead of 2048 [for key size.] Enter your information. This will be public. It's important to have accurate information if you're a journalist." 
+
+###Step 6
+"Then you're going to have to create a password. The only thing that protects the security of the information are the passphrase and the strength of the certificate itself. The certificate won't be broken, the passphrase could be broken, using a dictionary attack or a brute force attack... so use something strong. Pick a memorable quote that you don't have to write down, that's meaningful to you and that no one else knows, like 'Margaret Thatcher is %110 sexy' that has special characters like the percent sign, numbers, upper and loewrcase letters, and that's very long. You want a password that's more than 20 characters, minimum." 
+
+###Step 7
+"SO our key is finished generating... now we need to share it. We send [the keys] to key servers, that's where anyone can get public keys. Click server --> send keys: http://keys.gnupg.net is a good one. Now people can search for keys via your name, email address." 
+
+###Step 8 
