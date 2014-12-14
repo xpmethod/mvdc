@@ -1,10 +1,6 @@
-/****************************************
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This a tutorial adapted from Edward
+##This a tutorial adapted from Edward
 Snowden's video to Glenn Greenwald about 
 how to create and use a PGP key.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-****************************************/
 
 On December 1, 2012, Glenn Greenwald received his first communication with Edward Snowden. This communication was anonymous, and in the form of an email that simply urged Greenwald to consdier using a PGP encryption so that the anonymous contact could convey some vitally important information. 
 
