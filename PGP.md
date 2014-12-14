@@ -40,4 +40,17 @@ Please keep in mind: this is a tutorial for Windows users. Sierra Eckert, anothe
 ###Step 7
 "SO our key is finished generating... now we need to share it. We send [the keys] to key servers, that's where anyone can get public keys. Click server --> send keys: http://keys.gnupg.net is a good one. Now people can search for keys via your name, email address." 
 
-###Step 8 
+###Step 8
+"Let's take a quick look at publishing, and getting keys from people we've never had contact with. pgp.mit.edu is a public key server -- anyone can put their keys up there for free. You can search by emails... you want to use exact matches."
+
+###Step 9 
+[When you have successfully found someone's public key, by searching the server using either their name or email,] "You copy the key [which looks like a long block of gibberish), go to GPA [your GPG client], "hit control V for pasting and it'll import the key into the key ring. Now they're there, you can encrypt emails to them however you like." 
+
+###Step 10
+"Now that we have somebody's key, we can compose a message. Please pause the screen and read this note, this is critically important, webmail providers like gmail and some other clients will compromise your privacy." 
+
+[At this point in the video, the screen shows a note that Snowden wrote in TextEdit. The note reads as follows:
+
+	###"DO NOT COMPOSE YOUR EMAILS IN AN INTERNET BROWSER. Webmail clients like Gmail will 'autosave' a draft copy of your sensitive email BEFORE YOU HAVE HAD A CHANCE TO ENCRYPT IT. Only put the completed CYPHERTEXT (that is, the encrypted block of gibberish) into webmail. That way, the email provider cannot access the plaintext of your message." 
+
+
