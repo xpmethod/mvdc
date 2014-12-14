@@ -53,6 +53,7 @@ Please keep in mind: this is a tutorial for Windows users. Sierra Eckert, anothe
 
 	"DO NOT COMPOSE YOUR EMAILS IN AN INTERNET BROWSER. Webmail clients like Gmail will 'autosave' a draft copy 
 	of your sensitive email BEFORE YOU HAVE HAD A CHANCE TO ENCRYPT IT. Only put the completed CYPHERTEXT (that 
-	is, the encrypted block of gibberish) into webmail. That way, the email provider cannot access the plaintext of your message." 
+	is, the encrypted block of gibberish) into webmail. That way, the email provider cannot access the plaintext 
+	of your message." 
 
 
