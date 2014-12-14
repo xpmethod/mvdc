@@ -12,4 +12,11 @@ Greenwald ultimately ignored this attempt at communication as well -- it wasn't 
 
 Please keep in mind: this is a tutorial for Windows users. Sierra Eckert, another contributor to the Minimally Viable Digital Citizen project, has provded a tutorial for Mac users right here: https://github.com/xpmethod/mvdc/blob/master/cryptography-tutorial.md. 
 
+##A brief overview
+"Information has to transit the internet somehow, which is an untrusted environmnt, particularly for email, which is unencrypted by default. Any router you cross could be monitored by an intelligence agency..., but so could any endpoints on the way there, a mail server or a service providor such as gmail. If the journalist [who you are trying to contact] uses a webmail service, personally or that has been provisioned by their company..., that email can always be retrieved later on via subpoena or some other mechanism legal or illegal instead of catching [the email] [in transit.] 
 
+"The solution to that is to actually encrypt the message. One of the problems with encryption typically is that it requires a shared secret - a key or password that goes between the journalist or the source but if the source sends an encrypted file across the internet to his journalist, that says "hey here's the encrypted file, the password is cheescake," the internet's going to know the password was cheesecake. 
+
+"Public key encryption such as gpg allows the journalist to publish a key that anyone can have based on the design of the algorithm and it doesn't provide any advantage to the adversary because the knowledge of that will allow him to encrypt a message specifically to the journalist. He can send his message... across the internet along with a copy of his public key so the journalist can respond. This has never been broken... over the past 20 years it's had an unbroken record of security success. That's a solid measure of security and it's reasonable to rely on that.
+
+###
