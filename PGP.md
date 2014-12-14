@@ -49,11 +49,23 @@ Please keep in mind: this is a tutorial for Windows users. Sierra Eckert, anothe
 ###Step 10
 "Now that we have somebody's key, we can compose a message. Please pause the screen and read this note, this is critically important, webmail providers like gmail and some other clients will compromise your privacy." 
 
-[At this point in the video, the screen shows a note that Snowden wrote in TextEdit. The note reads as follows:
+[At this point in the video, the screen shows a note that Snowden wrote in TextEdit. The note reads as follows:]
 
 	"DO NOT COMPOSE YOUR EMAILS IN AN INTERNET BROWSER. Webmail clients like Gmail will 'autosave' a draft copy 
 	of your sensitive email BEFORE YOU HAVE HAD A CHANCE TO ENCRYPT IT. Only put the completed CYPHERTEXT (that 
 	is, the encrypted block of gibberish) into webmail. That way, the email provider cannot access the plaintext 
 	of your message." 
 
+###Step 11
+"So this is what we use: we use something like notebad, copy the text [that you wrote, i.e., the body of your email] and then we open up clipboard in the privacy agent [the GPA interface that you've been using all along.] This is where you put yoru text, you can also draft things in here, then you just click encrypt. You click which key you want to send it to, and then email it to [the address associate with that key.] This will allow us to decrypt our own text: by selecting both people as recipients, the [journalist] and ourselves. You have to enter your passphrase, and with that the messaeg will become enrypted. If anyone intercepts this over the wire when it's being emailed it's useless to them... without the recipient's private key." 
+
+###Step 12
+"[If we've received an enrypted message] we copy that into the clipboard, you click decrypt, put in your private passphrase, and once you've got that it's going to decrypt it." 
+
+
+Sources Cited: 
+
+[1] Greenwald, Glenn. "Contact." No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State. New York City: Metropolitan, 2014. Print.
+
+[2] PGP for Journalists. Youtube, 2012. Film.
 
