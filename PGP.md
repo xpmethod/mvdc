@@ -69,3 +69,4 @@ Sources Cited:
 
 [2] PGP for Journalists. Youtube, 2012. Film.
 
+*anything in [] I added for clarity*
