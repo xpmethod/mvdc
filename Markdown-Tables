@@ -1,0 +1,49 @@
+Minimum Viable Project
+
+This short tutorial is on the different ways to properly form tables using markdown.
+
+Let’s have 3 classes, taught by teachers:
+A with students Andy, Anna, and Ally,
+B with students Bob, Billy, and Barb,
+C with students Carla, Chad, and Cleo.
+
+The basic most barebones version simply separates columns using ‘ | ‘ (pipe) and the header row from the ensuing rows using ‘————‘ (hyphen).
+
+Like so:
+
+Teacher A  | Teacher B | Teacher C
+———————————|———————————|—————————
+Andy       | Bob       | Carla 
+Anna       | Billy     | Chad
+Ally       | Barb      | Cleo
+
+While aesthetically pleasing, there is no need to line up the pipes in such a way as to graphically represent the table, the rendering will do that for you.  The above table would render the same as this one:
+
+Teacher A | Teacher B | Teacher C
+—————|—————|——————
+Andy|Bobby|Carla
+Annalise|Billy|Chad 
+Ally|Barb|Cleo
+
+Beyond this it is up to your discretion whether or not you want to include pipes on the sides of you most lateral headers like this:
+
+| Teacher A | Teacher B | Teacher C |
+| —————|—————|———————|
+
+But it is not necessary to do so.  
+
+You can also specify the alignment of the columns by putting in colons on the dividing hyphens beneath the headers like this:
+
+Teacher A | Teacher B | Teacher C
+:———————- | :———: | ————:
+A         | B     | C
+
+This simply aligns the text against the left edge if the colon is on the left side of the header-tuple divider, the right side similarly, or the middle with a colon on both ends of the hyphens. The above would look like this (with the obvious table formatting the rendering applies):
+
+Teacher A | Teacher B | Teacher C
+A               B               C
+
+
+:)
+
+That’s all there is to Markdown tables.  Thanks for reading!
