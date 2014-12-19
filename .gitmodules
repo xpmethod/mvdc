@@ -1,0 +1,5 @@
+[submodule "mvdc.wiki"]
+	path = mvdc.wiki
+	url = git@github.com:sceckert/mvdc.wiki.git
+    branch = master
+
