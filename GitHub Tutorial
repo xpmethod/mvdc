@@ -1,0 +1,73 @@
+#Tutorial for Uploading Github
+
+### by Andrew Lee
+
+##Why GitHub
+
+GitHub is a web-based repository hosting service, which offers all of
+the distributed revision control and source code management
+functionality to Git.
+
+At its core, the site not only has a code sharing and publishing
+service, but also performs as a social networking site for programmers.
+
+Therefore, unlike other version of server, GitHub manages and stores
+reivisions of projects. Some people say it could be used to manage any
+other type of file, such as Word documents. In a way one could think of
+it as a filing cabinet for every draft of a document (or it could be
+much better than Google’s gDrive!).
+
+Here are the following commands and instructions to the GitHub
+initializing.
+
+##First, Convert a Document from Text to Markdown
+
+What is Markdown? It is a text-to-HTML conversion tool for web writers.
+Markdown allows you to write using an “readable” text format, then
+convert it to structurally valid HTML.
+
+The goal of Mardown is to make text as readable as possible. The idea is
+that a Markdown-formatted document should be publishable as-is, as plain
+text, without looking like it’s been marked up with tags or formatting
+instructions.
+
+Here’s some instructions for those with Babun software installed in PC:
+
+1)  Open the babun (or in case of Mac, open a terminal)
+2)  While you're running the babun, make a folder for yourself (e.g., a
+    folder named "labnote").
+3)  Then install pandoc, which is available for free in the Internet.
+4)  Have a document in text format, which is ready for conversion (e.g.,
+    a text file named "labnote\_week\_6.txt").
+
+
+5.  In babun, type a following command for conversion: pandoc -so
+    labnote\_week\_6.md labnote\_week\_6.txt
+6.  Check your folder whether the file successfully converted into a
+    Markdown format or not.
+
+Now, the file is ready to go into your GitHub repository!
+
+##Second, Upload a File to GitHub
+
+Next, the file is ready to upload into one of your repository of GitHub
+account. Here, the file is not only readable, but also ready for peer
+review by collaborators at your choosing.
+
+Here are commands from initializing GitHub to uploading the file:
+
+1)  git init
+2)  git remote add origin
+    https://github.com/username/name-of-therepository (e.g.,
+    https://github.com/andylee0427/labnotes)
+3)  git push -u origin master
+4)  git add labnote\_week\_6.md
+5)  git status
+6)  git commit -m "add labnote week 6"
+7)  git push
+
+As long as you follow in these steps, uploading files should be no
+problem. If you want to use different repository to upload the file, use
+the following command: git pull. Then you can use the similar command
+above to do the same. If you still don't have a clue how to do it,
+there's Google to search any type of command. Happy holiday!
